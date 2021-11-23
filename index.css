@@ -1,0 +1,73 @@
+*,
+ ::before ::after {
+    box-sizing: border-box;
+}
+
+.body {
+    text-align: justify;
+    letter-spacing: normal;
+    background-image: url(../img/e.jpg) !important;
+    background-size: normal;
+    background-position: center;
+}
+
+.content {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5cm;
+    margin-top: 5cm;
+    font-size: 60px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
+}
+
+.menu-bar {
+    background-color: rgb(187, 45, 156);
+    position: relative;
+}
+
+.menu-bar ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    margin-left: 450px;
+    text-align: center;
+    word-spacing: 4cm;
+}
+
+.menu-bar ul li {
+    margin: 25px;
+    word-spacing: 4cm;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.menu-bar ul li a,
+.active {
+    background-color: #fff;
+}
+
+.menu-bar ul li .submenu-1 {
+    background-color: rgba(rgb(43, 23, 156), green, blue, alpha);
+    display: inline block;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    background: transparent;
+    display: none;
+}
+
+.menu-bar ul li .submenu-1 ul {
+    display: inline block;
+}
+
+.h1 {
+    background-color: darkturquoise;
+    letter-spacing: normal;
+    position: relative;
+    flex-flow: column;
+    float: box 100px;
+}
